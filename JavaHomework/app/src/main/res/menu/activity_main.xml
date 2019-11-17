@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/sort_by_title"
+        android:orderInCategory="1"
+        android:title="@string/sort_by_name" />
+    <item
+        android:id="@+id/sort_by_type"
+        android:orderInCategory="2"
+        android:title="@string/sort_by_type" />
+    <item
+        android:id="@+id/edit_task_list"
+        android:orderInCategory="3"
+        android:title="@string/edit_task_list" />
+
+    <item
+        android:id="@+id/clear_cache"
+        android:orderInCategory="4"
+        android:title="@string/clear_cache" />
+</menu>

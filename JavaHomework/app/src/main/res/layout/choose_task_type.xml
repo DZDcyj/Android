@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/permanent_task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/create_permanent_task"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/cycle_task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/create_cycle_task"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/long_task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/create_long_task"
+        android:textAllCaps="false" />
+
+</LinearLayout>

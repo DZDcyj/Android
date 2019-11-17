@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/task_sort_by_name"
+        android:orderInCategory="1"
+        android:title="@string/sort_by_name" />
+    <item
+        android:id="@+id/task_sort_by_deadline"
+        android:orderInCategory="2"
+        android:title="@string/sort_by_deadline" />
+
+    <item
+        android:id="@+id/task_sort_by_status"
+        android:orderInCategory="3"
+        android:title="@string/sort_by_status" />
+
+    <item
+        android:id="@+id/copy_task"
+        android:orderInCategory="4"
+        android:title="@string/copy_task" />
+    <item
+        android:id="@+id/move_task"
+        android:orderInCategory="5"
+        android:title="@string/move_task" />
+
+    <item
+        android:id="@+id/manage_long_task"
+        android:orderInCategory="6"
+        android:title="@string/manage_long_task" />
+</menu>

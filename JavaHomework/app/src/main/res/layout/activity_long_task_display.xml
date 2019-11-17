@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <SearchView
+        android:id="@+id/searchView_longTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:queryHint="@string/find_task"
+        android:iconifiedByDefault="false"/>
+
+    <TextView
+        android:id="@+id/display_long_task_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/task_testName"
+        android:textSize="36sp" />
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.example.javahomework.SwipeRecyclerViewForTask
+            android:id="@+id/longtaskrecyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </com.example.javahomework.SwipeRecyclerViewForTask>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/add_new_subTask"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:src="@android:drawable/ic_input_add"
+            android:layout_margin="16dp"
+            android:backgroundTint="#1e90ff"
+            >
+
+        </android.support.design.widget.FloatingActionButton>
+
+
+    </android.support.design.widget.CoordinatorLayout>
+</LinearLayout>
+

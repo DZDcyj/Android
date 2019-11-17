@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/task_new_name"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/new_permanent_task_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/task_new_name_hint"
+        android:singleLine="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/task_new_description"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/new_permanent_task_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/task_new_descriptionHint" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="@string/choose_deadline"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/new_permanent_task_deadline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_weight="5"
+            android:text="@string/display_deadline" />
+
+        <ImageView
+            android:id="@+id/new_permanent_task_deadline_choose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:src="@android:drawable/ic_menu_today"
+            android:scaleType="centerInside" />
+    </LinearLayout>
+
+</LinearLayout>

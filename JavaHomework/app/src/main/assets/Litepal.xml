@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="JavaHomework" />
+
+    <version value="4" />
+    <list>
+        <mapping class="com.example.javahomework.Tasks.TaskList" />
+        <mapping class="com.example.javahomework.Tasks.BaseTask" />
+        <mapping class="com.example.javahomework.Tasks.CycleTask" />
+        <mapping class="com.example.javahomework.Tasks.CycleTask" />
+        <mapping class="com.example.javahomework.Tasks.LongTask" />
+        <mapping class="com.example.javahomework.Tasks.SubTask" />
+    </list>
+</litepal>

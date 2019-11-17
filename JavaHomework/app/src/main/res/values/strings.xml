@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Personal Assistant</string>
+    <string name="task_testName">Task Name</string>
+    <string name="task_testType">Task Type</string>
+    <string name="delete_button">Delete</string>
+    <string name="task_testDeadline">1926.8.17</string>
+    <string name="task_status">Finished</string>
+    <string name="task_new_name">Task Name</string>
+    <string name="task_new_name_hint">Type Your TaskName Here</string>
+    <string name="task_new_description">Task Description</string>
+    <string name="task_new_descriptionHint">Type Your Description Here</string>
+    <string name="choose_deadline">Choose The Deadline</string>
+    <string name="display_deadline">Deadline unset</string>
+    <string name="cycleDay_hint">Enter the cycle day:</string>
+    <string name="next_deadline_for_cycle">Next Deadline is: </string>
+    <string name="sort_by_name">Sort By Name</string>
+    <string name="sort_by_type">Sort By Type</string>
+    <string name="edit_task_list">Edit a Task List</string>
+    <string name="sort_by_deadline">Sort By Deadline</string>
+    <string name="sort_by_status">Sort By Status</string>
+    <string name="find_task">Search from this List</string>
+    <string name="copy_task">Copy Task</string>
+    <string name="move_task">Move Task</string>
+    <string name="cycleTime_hint">Enter the Cycle Times: </string>
+    <string name="manage_long_task">Manage A LongTask</string>
+    <string name="manage_subtask">Manage A SubTask</string>
+    <string name="clear_cache">Clear Cache</string>
+    <string name="create_permanent_task">Create a Permanent Task</string>
+    <string name="create_cycle_task">Create a Cycle Task</string>
+    <string name="create_long_task">Create a Long Task</string>
+</resources>
