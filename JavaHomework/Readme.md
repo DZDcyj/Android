@@ -8,7 +8,7 @@
 - Allow User to add a new tasklist
 - Allow User to drag a tasklist by long-clicking it
 - Delete a tasklist by swiping it out
-- Click an existed task to manage its tasks
+- Click an existed tasklist to manage its tasks
 
 ##### Menu
 
